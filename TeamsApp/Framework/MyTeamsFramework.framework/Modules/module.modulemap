@@ -1,0 +1,6 @@
+framework module MyTeamsFramework {
+  umbrella header "MyTeamsFramework.h"
+  export *
+
+  module * { export * }
+}

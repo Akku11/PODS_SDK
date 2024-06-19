@@ -1,0 +1,78 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyTeamsFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Teams",
+        "printedName": "Teams",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Teams",
+                "printedName": "MyTeamsFramework.Teams",
+                "usr": "s:16MyTeamsFramework0B0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16MyTeamsFramework0B0CACycfc",
+            "mangledName": "$s16MyTeamsFramework0B0CACycfc",
+            "moduleName": "MyTeamsFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getName",
+            "printedName": "getName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16MyTeamsFramework0B0C7getNameyyF",
+            "mangledName": "$s16MyTeamsFramework0B0C7getNameyyF",
+            "moduleName": "MyTeamsFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16MyTeamsFramework0B0C",
+        "mangledName": "$s16MyTeamsFramework0B0C",
+        "moduleName": "MyTeamsFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

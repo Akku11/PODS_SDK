@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		82C570012C234351000302A3 /* MyTeamsFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 82C570002C234351000302A3 /* MyTeamsFramework.docc */; };
 		82C570072C234351000302A3 /* MyTeamsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C56FFC2C234351000302A3 /* MyTeamsFramework.framework */; };
-		82C5700C2C234351000302A3 /* MyTeamsFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5700B2C234351000302A3 /* MyTeamsFrameworkTests.swift */; };
 		82C5700D2C234351000302A3 /* MyTeamsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C56FFF2C234351000302A3 /* MyTeamsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82C570172C2344FE000302A3 /* TeamsNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C570162C2344FE000302A3 /* TeamsNames.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		82C56FFF2C234351000302A3 /* MyTeamsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTeamsFramework.h; sourceTree = "<group>"; };
 		82C570002C234351000302A3 /* MyTeamsFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyTeamsFramework.docc; sourceTree = "<group>"; };
 		82C570062C234351000302A3 /* MyTeamsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTeamsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		82C5700B2C234351000302A3 /* MyTeamsFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamsFrameworkTests.swift; sourceTree = "<group>"; };
 		82C570162C2344FE000302A3 /* TeamsNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsNames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				82C56FFE2C234351000302A3 /* MyTeamsFramework */,
-				82C5700A2C234351000302A3 /* MyTeamsFrameworkTests */,
 				82C56FFD2C234351000302A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,14 +75,6 @@
 				82C570162C2344FE000302A3 /* TeamsNames.swift */,
 			);
 			path = MyTeamsFramework;
-			sourceTree = "<group>";
-		};
-		82C5700A2C234351000302A3 /* MyTeamsFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				82C5700B2C234351000302A3 /* MyTeamsFrameworkTests.swift */,
-			);
-			path = MyTeamsFrameworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82C5700C2C234351000302A3 /* MyTeamsFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

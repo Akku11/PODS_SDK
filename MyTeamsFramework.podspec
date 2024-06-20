@@ -10,5 +10,4 @@ Pod::Spec.new do |s|
  s.source = { :git => 'https://github.com/Akku11/PODS_SDK.git', :tag => s.version.to_s }
  s.swift_versions = ['5.0']
  s.source_files = 'MyTeamsFramework/**/*.{swift,h,m}'
- s.framework = 'XCTest'
 end

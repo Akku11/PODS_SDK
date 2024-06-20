@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name = 'MyTeamsFramework'
- s.version = '1.0.2'
+ s.version = '1.0.5'
  s.summary = 'My teams Framework.'
  s.description = 'Myteams Framework used to return names.'
  s.license = { :type => 'MIT', :file => 'LICENSE' }
